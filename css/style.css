@@ -8,10 +8,10 @@
 
 /* Variables */
 :root {
-  --main-color: #9B51E0;
+  --main-color: #9b51e0;
   --main-text-color: #fff;
   --border-color: #999;
-  --bio-bg-color: #1E2A3A;
+  --bio-bg-color: #1e2a3a;
   --bio-border-color: #293544;
   --about-bg-color: #111821;
 }
@@ -85,20 +85,21 @@
   font-size: 30px;
 }
 
-.email-container {
+.contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
-.email-container a {
+.contact-container a {
   color: var(--main-text-color);
   text-decoration: none;
   max-width: 225px;
 }
 
-.email-container ion-icon {
+.contact-container ion-icon {
   color: var(--main-color);
   font-size: 25px;
   max-width: 25px;
@@ -129,7 +130,7 @@
   border: 2px solid var(--main-color);
   border-radius: 5px;
   text-decoration: none;
-  transition: .5s;
+  transition: 0.5s;
   margin: 25px 0;
   padding: 12px 10px;
   width: 150px;
@@ -182,7 +183,7 @@
 }
 
 /* Mobile */
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .container {
     flex-direction: column;
   }
